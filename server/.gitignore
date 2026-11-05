@@ -1,0 +1,31 @@
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+
+# Environment variables and secrets
+.env
+.env.*
+
+# Local database
+instance/
+*.db
+*.sqlite3
+
+# Session and CSRF testing files
+cookies.txt
+second_user_cookies.txt
+csrf.json
+bob_cookies.txt
+
+# Node dependencies
+node_modules/
+
+# Editor and operating system files
+.vscode/
+.DS_Store
